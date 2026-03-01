@@ -1,0 +1,77 @@
+{% extends "base.html" %}
+
+{% block title %}
+<title>หน้าหลักของเว็บไซต์</title>
+{% endblock %}
+
+{% block content %}
+<div class="container my-4">
+
+  <!-- ข้อความ Banner -->
+  <p class="text-primary fw-bold">
+    ยินดีต้อนรับเข้าสู่รายวิชา ICT12367 การใช้กรอบงานสำหรับการพัฒนาเว็บแอปพลิเคชันเพื่อความมั่นคงปลอดภัย
+  </p>
+
+  <!-- สินค้า -->
+  <div class="border rounded p-3 mb-4 bg-light">
+    <h5 class="fw-bold">สินค้า</h5>
+    <div class="row align-items-center">
+      <div class="col-md-4">
+        <img src="https://vumo.co.uk/wp-content/uploads/2022/11/getty-images-kZat9Gzg5Uk-unsplash.jpg" class="img-fluid rounded">
+      </div>
+      <div class="col-md-8">
+        <p class="mb-0">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit.
+          Exercitationem sed quaerat excepturi reprehenderit eius tenetur.
+        </p>
+      </div>
+    </div>
+  </div>
+
+  <!-- บริการ -->
+  <div class="border rounded p-3 mb-4 bg-light">
+    <h5 class="fw-bold">บริการ</h5>
+    <div class="row align-items-center">
+      <div class="col-md-4">
+        <img src="https://t4.ftcdn.net/jpg/03/09/31/89/360_F_309318949_jYykCElAFvTRDgrQsx6KFlX4bcFoaHp9.jpg" class="img-fluid rounded">
+      </div>
+      <div class="col-md-8">
+        <p class="mb-0">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit.
+          Exercitationem sed quaerat excepturi reprehenderit eius tenetur.
+        </p>
+      </div>
+    </div>
+  </div>
+
+  <!-- เกี่ยวกับเรา -->
+  <div class="border rounded p-3 mb-4 bg-light">
+    <h5 class="fw-bold">เกี่ยวกับเรา</h5>
+    <div class="row align-items-center">
+      <div class="col-md-4">
+        <img src="https://www.shutterstock.com/image-photo/sunset-view-phra-prang-wat-600nw-2707931317.jpg" class="img-fluid rounded">
+      </div>
+      <div class="col-md-8">
+        <p class="mb-0">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit.
+          Exercitationem sed quaerat excepturi reprehenderit eius tenetur.
+        </p>
+      </div>
+    </div>
+  </div>
+
+  <!-- Google Map -->
+  <div class="border rounded p-3 bg-light">
+    <h5 class="fw-bold">แสดงแผนที่ใน Google Map</h5>
+    <div class="ratio ratio-16x9">
+      <iframe 
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3873.7233994550547!2d100.58290967589615!3d13.85563479487946!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x30e29d3b2deb49ff%3A0xd2ed4165c39645cc!2z4Lih4Lir4Liy4Lin4Li04LiX4Lii4Liy4Lil4Lix4Lii4Lio4Lij4Li14Lib4LiX4Li44Lih!5e0!3m2!1sth!2sth!4v1772336122234!5m2!1sth!2sth"
+        allowfullscreen
+        loading="lazy">
+      </iframe>
+    </div>
+  </div>
+
+</div>
+
+{% endblock %}
